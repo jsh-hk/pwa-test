@@ -14,7 +14,7 @@ npm install
 npm run serve
 ```
 
-To test the service worker we have to build for production.  A minimalistic web server is included in the dev dependencies to make this easier
+To test the service worker we have to build for production.  A minimalistic web server is included in the dev dependencies to make this easier (currently broken due to GH pages subdomain restriction)
 
 ```
 npm run build
