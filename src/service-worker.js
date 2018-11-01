@@ -1,2 +1,2 @@
 // service-worker.js
-console.log('Our own service worker file!')
+console.log('Look, a console log from our very own service worker file!')
