@@ -1,26 +1,22 @@
-# pwa-test
+# Vue PWA testing
+
+Playing around with Vue.js PWA support.  Lifted/bootstrapped from https://www.blog.plint-sites.nl/progressive-web-app-using-vue-cli-3/
+
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## For basic tinkering (non-service worker stuff)
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+To test the service worker we have to build for production.  A minimalistic web server is included in the dev dependencies to make this easier
+
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+./node_modules/.bin/serve -s dist
 ```
