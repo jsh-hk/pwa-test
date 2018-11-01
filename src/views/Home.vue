@@ -46,10 +46,10 @@ export default {
         navigator.serviceWorker.ready // returns a Promise, the active SW registration
           .then(swreg => swreg.showNotification('Notifications granted', {
             body: 'Consider yourself notified',
-            icon: '/img/icons/android-chrome-192x192.png',
-            image: '/img/autumn-forest.png',
+            icon: '~/img/icons/android-chrome-192x192.png',
+            image: '~/img/autumn-forest.png',
             vibrate: [300, 200, 300],
-            badge: '/img/badge-96x96.jpg'
+            badge: '~/img/badge-96x96.jpg'
             // actions: [
             //     { action: 'confirm', title: 'Okay', icon: '/img/icons/android-chrome-192x192.png'},
             //     { action: 'cancel', title: 'Cancel', icon: '/img/icons/android-chrome-192x192.png'}
