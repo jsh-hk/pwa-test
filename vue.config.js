@@ -1,5 +1,6 @@
 // vue.config.js
 module.exports = {
+  baseUrl: './',
   pwa: {
     workboxPluginMode: 'InjectManifest',
     workboxOptions: {
