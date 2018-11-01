@@ -20,3 +20,9 @@ To test the service worker we have to build for production.  A minimalistic web 
 npm run build
 ./node_modules/.bin/serve -s dist
 ```
+
+## Deploy to GitHub Pages
+NOTE: Since this command changes branches in the background, it can only be run with no pending changes
+```
+npm run deploy
+```
