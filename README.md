@@ -14,15 +14,9 @@ npm install
 npm run serve
 ```
 
-To test the service worker we have to build for production.  A minimalistic web server is included in the dev dependencies to make this easier (currently broken due to GH pages subdomain restriction)
+To test the service worker we have to build for production.  A minimalistic web server is included in the dev dependencies to make this easier
 
 ```
 npm run build
 ./node_modules/.bin/serve -s dist
-```
-
-## Deploy to GitHub Pages
-NOTE: Since this command changes branches in the background, it can only be run with no pending changes
-```
-npm run deploy
 ```
