@@ -2,6 +2,7 @@
 
 Playing around with Vue.js PWA support.  Lifted/bootstrapped from https://www.blog.plint-sites.nl/progressive-web-app-using-vue-cli-3/
 
+See it running here: https://jsh-hk-pwa-test.netlify.com/
 
 ## Project setup
 ```
